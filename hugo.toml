@@ -1,0 +1,16 @@
+baseURL = 'https://qa5imm.github.io/blog-post/'
+languageCode = 'en-us'
+title = 'Blog Post'
+theme = 'beautifulhugo'
+contentDir = "content"
+
+
+[author]
+  name = "Qasim Mehmood"
+  website = "https://qa5imm.github.io"
+  email="mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com"
+  github = "https://github.com/Qa5imm"
+  linkedin= "https://www.linkedin.com/in/qasim-mehmood-28168a1b5/"
+
+[menus]
+    main = [{name = 'Blog', url = '/'},{name = 'Portfolio', url = 'https://qa5imm.github.io'}]
