@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://qa5imm.github.io/blog-post/</loc>
+    <lastmod>2024-01-09T23:33:22+05:00</lastmod>
+  </url><url>
+    <loc>https://qa5imm.github.io/blog-post/post/harnessing-the-power-of-bash-script/</loc>
+    <lastmod>2024-01-09T23:33:22+05:00</lastmod>
+  </url><url>
+    <loc>https://qa5imm.github.io/blog-post/post/</loc>
+    <lastmod>2024-01-09T23:33:22+05:00</lastmod>
+  </url><url>
+    <loc>https://qa5imm.github.io/blog-post/post/how-to-deploy-fastapi-on-hugging-face/</loc>
+    <lastmod>2024-01-09T12:18:27+05:00</lastmod>
+  </url><url>
+    <loc>https://qa5imm.github.io/blog-post/categories/</loc>
+  </url><url>
+    <loc>https://qa5imm.github.io/blog-post/tags/</loc>
+  </url>
+</urlset>
