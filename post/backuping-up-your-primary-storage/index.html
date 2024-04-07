@@ -10,9 +10,9 @@
  
 
 
-      <title>Harnessing the Power of Bash Script - </title>
+      <title>Backing Up the Primary Storage - </title>
 
-  <meta name="description" content="This is a short, fun blog that demonstrates how we can use basic bash commands to make our life easier and flex on fellow developers.">
+  <meta name="description" content="Last month, I was playing around with configuration files of my OS (ubuntu) and got myself into a login-loop, in simple words I couldn&rsquo;t login into my OS anymore.">
   <meta name="author" content="Qasim Mehmood"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -48,8 +48,8 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/qa5imm.github.io\/blog\/post\/harnessing-the-power-of-bash-script\/",
-          "name": "Harnessing the power of bash script"
+          "@id": "https:\/\/qa5imm.github.io\/blog\/post\/backuping-up-your-primary-storage\/",
+          "name": "Backing up the primary storage"
         }
     }]
 }
@@ -60,15 +60,15 @@
   "author": {
     "name" : "Qasim Mehmood"
   },
-  "headline": "Harnessing the Power of Bash Script",
-  "description" : "This is a short, fun blog that demonstrates how we can use basic bash commands to make our life easier and flex on fellow developers.\n",
+  "headline": "Backing Up the Primary Storage",
+  "description" : "Last month, I was playing around with configuration files of my OS (ubuntu) and got myself into a login-loop, in simple words I couldn\u0026rsquo;t login into my OS anymore.\n",
   "inLanguage" : "en",
-  "wordCount":  769 ,
-  "datePublished" : "2024-01-09T23:33:22",
-  "dateModified" : "2024-01-09T23:33:22",
+  "wordCount":  597 ,
+  "datePublished" : "2024-04-08T01:32:36",
+  "dateModified" : "2024-04-08T01:32:36",
   "image" : "https:\/\/qa5imm.github.io\/blog\/",
   "keywords" : [ "" ],
-  "mainEntityOfPage" : "https:\/\/qa5imm.github.io\/blog\/post\/harnessing-the-power-of-bash-script\/",
+  "mainEntityOfPage" : "https:\/\/qa5imm.github.io\/blog\/post\/backuping-up-your-primary-storage\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/qa5imm.github.io\/blog\/",
@@ -82,14 +82,14 @@
 }
 </script>
 
-<meta property="og:title" content="Harnessing the Power of Bash Script" />
-<meta property="og:description" content="This is a short, fun blog that demonstrates how we can use basic bash commands to make our life easier and flex on fellow developers.">
-<meta property="og:url" content="https://qa5imm.github.io/blog/post/harnessing-the-power-of-bash-script/" />
+<meta property="og:title" content="Backing Up the Primary Storage" />
+<meta property="og:description" content="Last month, I was playing around with configuration files of my OS (ubuntu) and got myself into a login-loop, in simple words I couldn&rsquo;t login into my OS anymore.">
+<meta property="og:url" content="https://qa5imm.github.io/blog/post/backuping-up-your-primary-storage/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Blog Post" />
 
-  <meta name="twitter:title" content="Harnessing the Power of Bash Script" />
-  <meta name="twitter:description" content="This is a short, fun blog that demonstrates how we can use basic bash commands to make our life easier and flex on fellow developers.">
+  <meta name="twitter:title" content="Backing Up the Primary Storage" />
+  <meta name="twitter:description" content="Last month, I was playing around with configuration files of my OS (ubuntu) and got myself into a login-loop, in simple words I couldn&rsquo;t login into my OS anymore.">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="Hugo 0.110.0">
   <link rel="alternate" href="https://qa5imm.github.io/blog/index.xml" type="application/rss+xml" title="Blog Post"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
@@ -210,7 +210,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>Harnessing the Power of Bash Script</h1>
+                <h1>Backing Up the Primary Storage</h1>
               
               
               
@@ -218,7 +218,7 @@
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on January 9, 2024
+  <i class="fas fa-calendar"></i>&nbsp;Posted on April 8, 2024
   
   
   
@@ -246,29 +246,36 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>This is a short, fun blog that demonstrates how we can use basic bash commands to make our life easier and flex on fellow developers.</p>
-<p>So, what&rsquo;s a bash script, bash is command-line language which helps you interact with operating system through command-line-interface (Terminal), in other words, whatever you can do with nice graphical interface you can do by just running <em>some</em> commands in terminal.</p>
-<p>Script is anything (.txt, .py file etc) from which a program reads (interprets) an instruction, executes it and then move to the next instruction. Thus, <code>Bash Script</code> is a script written in bash which is interpreted by the Bash (interpreter) enabling us to interact with the OS. Yes, bash is the name of the language as well as an interpreter.</p>
-<p>I believe that&rsquo;s enough background information. Coming back to main topic, I&rsquo;ve been working on a project for last few months for which I need to launch three applications. A Browser (chrome), code-editor (vscode) and <code>disabled-web-security</code> instance of my browser. Let me demonstrate you how can we open these three applications using single command <code>sw</code>.</p>
-<p>We can open all three applications separately by running <code>google-chrome &amp;</code> for chrome, <code>code ~/target/dir</code> for vscode and <code>google-chrome --user-data-dir=insecure-chrome --disable-web-security &amp;</code> for chrome with reduced security. <code>Ampersand &amp;</code> is used for exceuting commands asynchronously, allowing us to execute the next command without waiting for former to finish.</p>
-<p>We can combine these three commands into a single command by typing them all out and separating them with semi-colon. <code>Semi-colon</code> tells bash that a command ends here and a new command will start after it, it follows in-order execution. We used parathensis to separate <code>&amp;</code> from <code>;</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">(</span>google-chrome &amp;<span style="color:#f92672">)</span> ; code ~/target/dir ; <span style="color:#f92672">(</span>google-chrome --user-data-dir<span style="color:#f92672">=</span>insecure-chrome --disable-web-security &amp;<span style="color:#f92672">)</span>
-</span></span></code></pre></div><p>If you followed the above steps, you&rsquo;ll notice that it displays bunch of warnings/errors after we run this command, we can deal with them later. But the big worry is, do we need to type all this when we want to setup the workspace? hmm, well no.</p>
-<p>We can leverage concept of aliasing in bash through which we can assign custom names to different commnads. We can open the .bashrc, or .zshrc if you&rsquo;re on mac, using <code>sudo nano ~/.bashrc</code>. It&rsquo;s the main bash file which is run everytime we launch a new terminal instance.</p>
-<p>Here we will add a alias named <code>sw</code> for the above command</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>alias sw<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;(google-chrome &amp;) ; code ~/target/dir ; (google-chrome --user-data-dir=insecure-chrome --disable-web-security &amp;)&#34;</span>
-</span></span></code></pre></div><p>We will run <code>source ~/.bashrc</code> to use the updated bashrc for current terminal instance. As I mentioned above, we don&rsquo;t get a clear terminal automatically after these instructions are executed. We can get one by adding three more commands to our alias, updated alias will look something like this.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>alias sw<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;(google-chrome &amp;); code ~/target/dir ; (google-chrome --user-data-dir=insecure-chrome --disable-web-security &amp;) ;sleep 1 ; kill -TERM </span>$$<span style="color:#e6db74"> ; clear&#34;</span>
-</span></span></code></pre></div><p><code>sleep 1</code> will wait for instructions to be executed as most of them are executed asychronously. <code>kill -TERM $$</code> will signal an interept, which will terminate currently running process(es), and finally <code>clear</code> will clear the terminal window.</p>
-<p>There&rsquo;s last edge case we&rsquo;re missing, what if a chrome instance is already up and running then the above command will open a new chrome instance which we will have to close manually. A simple work around would be to create a function in <code>.bashrc</code> that checks if the there&rsquo;s a chrome instance already running, if yes, we don&rsquo;t need to launch a new one.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>checkChrome<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> ! pgrep -x <span style="color:#e6db74">&#34;chrome&#34;</span> &gt; /dev/nul ; <span style="color:#66d9ef">then</span>
-</span></span><span style="display:flex;"><span>        google-chrome &amp;
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">fi</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span></code></pre></div><p>Above function uses grep, a command-line search utility, to find a process named <code>chrome</code>, if it isn&rsquo;t present then it launches a new one. <code>&gt;</code> redirects the output of the command to <code>/dev/null</code> file which is a system-file and acts as black hole, any data written to it is discarded and not stored anywhere.</p>
-<p>How can we call this function in our alias? simply replace the <code>google-chrome &amp;</code> command with <code>(checkChrome)</code>. That&rsquo;s how we can launch three apps with just one simple command <code>sw</code> and it justs tip of the ice berg. I haven&rsquo;t used a single complex command but still able to do alot, that just demonstartes how powerful bash script is and how important it is to get familiar with it.</p>
-<p>Idea of setting up workspace like above came from <a href="https://www.youtube.com/watch?v=EfmVRQjoNcY">this</a> scene in ironman, although it&rsquo;s not that good but give the same vibes. My dream setup goal is to build something like <a href="https://www.youtube.com/watch?v=RjF_j6QZpxc">this</a> but that&rsquo;s only possible if I get a good job and save enough money to afford the required hardware so please pray for my job.</p>
+        <p>Last month, I was playing around with configuration files of my OS (ubuntu) and got myself into a login-loop, in simple words I couldn&rsquo;t login into my OS anymore.</p>
+<p>I tried almost every possible solution on the internet but couldn&rsquo;t fix it, so I replaced the OS with a new one and lost all my data.</p>
+<p>After that I decided to backup my SSD (primary storage) data into HDD (secondary storage). In the following, I will show you how one can go about it</p>
+<p>If the secondary storage is not mounted then we have to mount it first, we can get list of the all block devices attached to the machine by using <code>lsblk</code>. In my case, HDD is <code>sda</code></p>
+<p><img src="2.png" alt="lsblk-output"></p>
+<p>We can now mount the hdd using <code>mount</code>, mounting is making storage device&rsquo;s file system accessible to OS and users. We will first create the mounting point (endpoint in the primary file system where storage device will be mounted) using <code>mkdir</code>. Then we will mount the hdd inside the created directory.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir /media/qasim
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo mount /dev/sda  /media/qasim
+</span></span></code></pre></div><p>Now comes the main part, we will use <code>rsync</code> for backuping the data from home directory to the hdd. <code>new volume</code> is the name of mounted device. <em>Don&rsquo;t forget to add <code>/</code> at the end of source and destination</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rsync -ra <span style="color:#e6db74">&#34;/home/qasim/&#34;</span> <span style="color:#e6db74">&#34;/media/qasim/new volume/backup/&#34;</span>
+</span></span></code></pre></div><p>This command will create a backup of all the contents inside the <code>/home/qasim</code> to <code>/media/qasim/new volume/backup</code>, <code>r</code> stands for recursive, it means all the directories along with their subdirectories and files will be included. <code>a</code> tell rsync to do the incremental backup, so let&rsquo;s say that we backuped the entire ssd and now added a new file in source dir, should it should backup the whole thing again? that&rsquo;s where <code>a</code> comes in, it only backups the difference in the source and destination dir.</p>
+<p>There are some other flags that we can use, i.e. <code>z</code>, it will compress the data while transferring from source to destination but it will be stored in uncompressed form in destination, it helps in speeding up the transfer. <code>v</code> stands for verbose, it instructs the program to provide more detailed output during its execution, in our case it will output the files which are accessed, bytes transferred, transfer rate etc. However, in our case as the number of files will be large so it&rsquo;s better to not use it. Right now our command looks like this</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rsync -raz <span style="color:#e6db74">&#34;/home/qasim/&#34;</span> <span style="color:#e6db74">&#34;/media/qasim/new volume/backup&#34;</span>
+</span></span></code></pre></div><p>There&rsquo;s one more thing we should add, the <code>delete</code> flag. It tells rsync to delete all the files in the destination dir if they&rsquo;re not present (removed after previous backup) in the source dir.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rsync -raz --delete <span style="color:#e6db74">&#34;/home/qasim/&#34;</span> <span style="color:#e6db74">&#34;/media/qasim/new volume/backup&#34;</span>
+</span></span></code></pre></div><p>To check whether the backup was success ful or not, we can use the following <code>if else</code> statments, <code>$?</code> stores the exist status of last excuted commnad , <code>-eq</code> is used for equality. Exist status of a program is zero if it&rsquo;s executed successfully else it&rsquo;s non-zero. We can put everything into a single bash file.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#backup.sh</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash</span>
+</span></span><span style="display:flex;"><span>rsync -raz --delete <span style="color:#e6db74">&#34;/home/qasim/&#34;</span> <span style="color:#e6db74">&#34;/media/qasim/new volume/backup&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $? -eq <span style="color:#ae81ff">0</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>   echo <span style="color:#e6db74">&#34;backup successful&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>  echo <span style="color:#e6db74">&#34;backup unsuccessful&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span></code></pre></div><p>Last part is to scheduled the backup periodically, for this we will use the <code>cron</code> scheduler. Open crone tab using the command <code>crontab -e</code> and provide the schedule and file you want to run. Line below will run the backup.sh file each day at 2 am.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#ae81ff">0</span> <span style="color:#ae81ff">2</span> * * * /home/qasim/backup.sh
+</span></span></code></pre></div><p>Finally, we&rsquo;re done with incrementaly backuping up our primary storage and now we can freely meddle with config files.</p>
 
         
 
@@ -281,13 +288,9 @@
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://qa5imm.github.io/blog/post/how-to-deploy-fastapi-on-hugging-face/" data-toggle="tooltip" data-placement="top" title="How to Deploy FastApi on Hugging Face">&larr; Previous Post</a>
+              <a href="https://qa5imm.github.io/blog/post/harnessing-the-power-of-bash-script/" data-toggle="tooltip" data-placement="top" title="Harnessing the Power of Bash Script">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://qa5imm.github.io/blog/post/backuping-up-your-primary-storage/" data-toggle="tooltip" data-placement="top" title="Backing Up the Primary Storage">Next Post &rarr;</a>
-            </li>
           
         </ul>
       

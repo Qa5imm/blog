@@ -8,7 +8,16 @@
     <language>en-us</language>
     <managingEditor>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</managingEditor>
     <webMaster>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</webMaster>
-    <lastBuildDate>Tue, 09 Jan 2024 23:33:22 +0500</lastBuildDate><atom:link href="https://qa5imm.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Apr 2024 01:32:36 +0500</lastBuildDate><atom:link href="https://qa5imm.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backing Up the Primary Storage</title>
+      <link>https://qa5imm.github.io/blog/post/backuping-up-your-primary-storage/</link>
+      <pubDate>Mon, 08 Apr 2024 01:32:36 +0500</pubDate>
+      <author>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</author>
+      <guid>https://qa5imm.github.io/blog/post/backuping-up-your-primary-storage/</guid>
+      <description>&lt;p&gt;Last month, I was playing around with configuration files of my OS (ubuntu) and got myself into a login-loop, in simple words I couldn&amp;rsquo;t login into my OS anymore.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Harnessing the Power of Bash Script</title>
       <link>https://qa5imm.github.io/blog/post/harnessing-the-power-of-bash-script/</link>
