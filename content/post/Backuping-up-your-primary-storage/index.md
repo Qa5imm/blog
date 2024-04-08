@@ -13,7 +13,7 @@ After that I decided to backup my SSD (primary storage) data into HDD (secondary
 If the secondary storage is not mounted then we have to mount it first, we can get list of the all block devices attached to the machine by using `lsblk`. In my case, HDD is `sda`
 
 
-![lsblk-output](2.png)
+![lsblk-output](lsblk.png)
 
 We can now mount the hdd using `mount`, mounting is making storage device's file system accessible to OS and users. We will first create the mounting point (endpoint in the primary file system where storage device will be mounted) using `mkdir`. Then we will mount the hdd inside the created directory.
 
