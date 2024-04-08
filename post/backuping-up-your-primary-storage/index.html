@@ -250,7 +250,7 @@
 <p>I tried almost every possible solution on the internet but couldn&rsquo;t fix it, so I replaced the OS with a new one and lost all my data.</p>
 <p>After that I decided to backup my SSD (primary storage) data into HDD (secondary storage). In the following, I will show you how one can go about it</p>
 <p>If the secondary storage is not mounted then we have to mount it first, we can get list of the all block devices attached to the machine by using <code>lsblk</code>. In my case, HDD is <code>sda</code></p>
-<p><img src="2.png" alt="lsblk-output"></p>
+<p><img src="lsblk.png" alt="lsblk-output"></p>
 <p>We can now mount the hdd using <code>mount</code>, mounting is making storage device&rsquo;s file system accessible to OS and users. We will first create the mounting point (endpoint in the primary file system where storage device will be mounted) using <code>mkdir</code>. Then we will mount the hdd inside the created directory.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir /media/qasim
 </span></span><span style="display:flex;"><span>
