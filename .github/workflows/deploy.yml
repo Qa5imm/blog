@@ -14,6 +14,11 @@ jobs:
         with:
           submodules: true
 
+      - name: Update Theme Submodules
+        run: |
+          git submodule update --remote --merge
+          git status
+
       - name: Checkout destination
         uses: actions/checkout@v3
         if: github.ref == 'refs/heads/main'
@@ -23,10 +28,15 @@ jobs:
 
       - name: Setup Hugo
         run: |
-          curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz'
-          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo          
+          curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.140.2/hugo_0.140.2_Linux-64bit.tar.gz'
+          tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo
+          echo "Hugo version:"
+          ${RUNNER_TEMP}/hugo version
+
       - name: Build
-        run: ${RUNNER_TEMP}/hugo
+        run: |
+          ${RUNNER_TEMP}/hugo 
+          echo "Hugo build completed."
 
       - name: Deploy
         if: github.ref == 'refs/heads/main'
