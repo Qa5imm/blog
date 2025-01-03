@@ -4,9 +4,8 @@
     <title>Tags on Blog Post</title>
     <link>https://qa5imm.github.io/blog/tags/</link>
     <description>Recent content in Tags on Blog Post</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</managingEditor>
-    <webMaster>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</webMaster><atom:link href="https://qa5imm.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qa5imm.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,39 +4,37 @@
     <title>Posts on Blog Post</title>
     <link>https://qa5imm.github.io/blog/post/</link>
     <description>Recent content in Posts on Blog Post</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <managingEditor>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</managingEditor>
-    <webMaster>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</webMaster>
-    <lastBuildDate>Mon, 08 Apr 2024 01:32:36 +0500</lastBuildDate><atom:link href="https://qa5imm.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://qa5imm.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encodings in computing</title>
+      <link>https://qa5imm.github.io/blog/post/encodings-in-computing/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://qa5imm.github.io/blog/post/encodings-in-computing/</guid>
+      <description>&lt;p&gt;Everything around us is encoded, whether it’s representing voice using words or expressing emotions through body language and gestures. We generally rely on encodings when there’s no direct pathway between two intelligent systems or processes, requiring us to use intermediary &amp;ldquo;dumb&amp;rdquo; systems or steps that have direct route to these smart entities.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Backing Up the Primary Storage</title>
       <link>https://qa5imm.github.io/blog/post/backuping-up-your-primary-storage/</link>
       <pubDate>Mon, 08 Apr 2024 01:32:36 +0500</pubDate>
-      <author>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</author>
       <guid>https://qa5imm.github.io/blog/post/backuping-up-your-primary-storage/</guid>
       <description>&lt;p&gt;Last month, I was playing around with configuration files of my OS (ubuntu) and got myself into a login-loop, in simple words I couldn&amp;rsquo;t login into my OS anymore.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Harnessing the Power of Bash Script</title>
       <link>https://qa5imm.github.io/blog/post/harnessing-the-power-of-bash-script/</link>
       <pubDate>Tue, 09 Jan 2024 23:33:22 +0500</pubDate>
-      <author>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</author>
       <guid>https://qa5imm.github.io/blog/post/harnessing-the-power-of-bash-script/</guid>
       <description>&lt;p&gt;This is a short, fun blog that demonstrates how we can use basic bash commands to make our life easier and flex on fellow developers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Deploy FastApi on Hugging Face</title>
       <link>https://qa5imm.github.io/blog/post/how-to-deploy-fastapi-on-hugging-face/</link>
       <pubDate>Tue, 09 Jan 2024 12:18:27 +0500</pubDate>
-      <author>mailto: qasimmehmod@outlook.com?cc=qm789586@gmail.com (Qasim Mehmood)</author>
       <guid>https://qa5imm.github.io/blog/post/how-to-deploy-fastapi-on-hugging-face/</guid>
-      <description>&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
-&lt;p&gt;Basic undertstanding of &lt;strong&gt;Git&lt;/strong&gt;.
-You can follow &lt;a href=&#34;https://www.freecodecamp.org/news/introduction-to-git-and-github/&#34;&gt;this&lt;/a&gt; article to get familiar.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;&#xA;&lt;p&gt;Basic undertstanding of &lt;strong&gt;Git&lt;/strong&gt;.&#xA;You can follow &lt;a href=&#34;https://www.freecodecamp.org/news/introduction-to-git-and-github/&#34;&gt;this&lt;/a&gt; article to get familiar.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
