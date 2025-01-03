@@ -1,0 +1,45 @@
+---
+title: "Encodings"
+date: 2025-01-01
+---
+
+
+Everything around is encoded, whether it be representaion of voice in form of alphabets/words or comutunig inner emotions through body langauge, gestures etc. Generally, we need encodings when there's direct route between two intelligent systems/process and we need to go through some dumb system(s)/process(es) because they have a direct route to these intelligent systems. Take, for example, our brain, as inteligent it is, it lacks a way (route) of directly communicating with other brain, soif we need to communicate something from one brain to another we need to take some dumb hops (sensory organs) in-between, if you convey to someone that you are angry then you will encode (dump hop) that emotion by making a face or cussing them (i liked the idea of second one, tho I have never done it), then other person will use their eyes (dump hop) to decode that expression to convey it to intelligent brain. What if we somehow ignore these two steps and talk directly to other entity, some guys are working on it.
+
+It's same reason when we want to explain a concept to less intelligent person (intelligence is relative to person explaining the concept) we absract away the complexity and encodes it in simpler terms and once they get the basic idea of things they later build on it.
+
+Encodings in computing are somewhat similar but there's more it than just talk between wise (humans) and a dump(conmputer). In computing we use encodings for security, storage efficiency, data integirty. For this article, we wil focus only on talk between gods wiset invention and humans wiset invention, as you cannot beat God, his invention is more intelligent than oursore intelligent than oursore intelligent than ours.
+
+
+
+Encodings in Computing
+
+History
+We want encodings in digital devices, because they are not intelligent enoguh to process and store human encodings of expressions (words, voices etc), they only understand 1's and 0's (that's because all digital devices at lowest level are just bunch of transistors which has only two states, on/ooff). Therefore, we have our encode human encodings into another encoding consisting of only 1's and 0's. But humans, being close relatives of apes, likes to nuts when they go about doing something,when enough chaos is made then some wise selfless apes come forward and sort things out. That's what happens with encodings, everyone came up with their own encodings to characters to numbers and it's very hard for two computers to communicate each other after widespread use. So some wise apes stat togther made a standard called ASCII, it was seven-bit long encordings of characters (writeable and non-writeable), non-writeable characters are which not printable like space, beep sound, movingcursor to next line etc), so every character has a number associated with it (7 for beep, ! for 33,65 for A etc). Some apes reading this might think why did they choose 65 for A and after capital alphbets ends (90) why not start small aplphabets (97) right after them. Answer: they're engineers.
+Take a look at the binary patterns below:
+A : 1000001
+B : 1000010
+C : 1000011
+C : 1000100
+D : 1000110
+E : 1000111
+
+You could simply remove the first 2-bits (10) and know what the position of letters in the alphbets. (A at 1 (1), B at 2(10), C at 3 (11)), that this is the same reason they started small aplhabets from 97, a is 1100001 in binary, exactly the same pattern as capital letters, smart ass, smart assess! One important bit to note is that ASCII was only for English Alphabets, people who didn't deal with english came up with their own encodings 
+
+However, with the inception of microprocessors things changed, as they use 8-bit to store stuff so now apes had one full extra bit, they got excited!!. One bit means 127 extra words (128-255), everyone started storing characters of their choice and these different encodings were given a fancy name codepages (all codepages have same encodings under 127, only 128 onwards differ).
+
+As character after 127 was different for every code page, for decoding stuff one needs to know in which codepage text was encoded else it would print some gibberesh text that don't make any sense. Generally people standard encodings symbols from other langauges in codepages, thus it was very hard to text in two foriegn langauges as extra bit could only accomodate one language. With globilzation of computers, email sent by someone in russia would print gibberesh in nordic countries. Moreoever, some asiagn languages had thousands of characters, there's a need for another system, and hence some wise apes again sat together and this time came up with something called Unicode (There's alot that happend between ASCII and Unicode, people came with alot lot encodings (UCS-2,UCS-4 etc) but some storage inefficient or were not backwards compatible with ASCII). 
+
+In unicode, every charater is assigned a unique number called code point, it starts with 'U+' then the number in hexamdecimal format (for exmample, unicode value for A is U+0041). It's important to note that unicode is not an encoding scheme, it's just a universal standard which assigns each a unique code to each character. People that came up with the unicode standard didn't specify how to encode these characters in binary, they left it to other apes to figure out, then came up UTFs, whichare set of encoding schemes to represent unicode in binary. UTF-8 is a variable lenght encoding which means that it store each character in 1,2,3, or even upto 4 bytes. UTF-16, UTF-32 are fixed lenght encoding and store every character in 2,4 bytes respectively.  
+
+The good thing about UTFs were that they were backwards compitable with ASCII (A would be encoded as 65). Don't get confused here between unicode value of U+0041 for A and UTF encoding of A into 65.
+Unicode ordered that A will be represented by 0041, it came to UTF encoding scheme, UTF looked at it and start converting it not binary (each digit in hex is 4-bit) and came up with 0000 0000 0100 0001, if you convert it into decimal number system (base-10), it's 65. Wether, higher order zeros(left ones) are stored or not depends on what type of UTF encoding you're using 8 or 16, decimal number will be same regardless.You can see fixed length encodings are extremely space inefficient.
+
+UTF-8 was most widely adopted out of all encodings because first it was variable lenght and thus highly space efficient. Second, it's backward compitable with ASCII and thus worked with systems that only understand ascii, lastly, it will never encode 8 consective zeros, some old computers interept 8 consective bits are end of string of characters, everything after them were ignored. Now you see where we could wrong with UTF-16,32. You can watch this vedio to understand how variable lenght encoding works in UTF-8 and why it can't have 8 consective zeros (tip: listen at 2x, it's very intuitive)
+
+Before I end this article, let me share some cursed knowlegde with you.Open up a node Replit by writing node in your terminal, run this s="👍" len(s), you will get 2 as output because javascript encodes string as UTF-16, a thumbs up take 4 bytes but because javascript use UTF-16 it reads two distinct bytes for 👍, it means every english alphabet in js will take twice as as space compared to UTF-8
+
+
+I hope you could after this aritcle can you appreciate encodings in computing and around you.
+
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog Post</title>
+    <link>http://localhost:1313/blog/post/</link>
+    <description>Recent content in Posts on Blog Post</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encodings</title>
+      <link>http://localhost:1313/blog/post/encodings-in-computing/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post/encodings-in-computing/</guid>
+      <description>&lt;p&gt;Everything around us is encoded, whether it’s representing voice using words or expressing emotions through body language and gestures. We generally rely on encodings when there’s no direct pathway between two intelligent systems or processes, requiring us to use intermediary &amp;ldquo;dumb&amp;rdquo; systems or steps that have direct path to these smart entities. Take our brain, for instance. Although it’s highly intelligent, it doesn’t have a direct way to communicate with another brain. To share something between two brains, we must go through some &amp;ldquo;dumb&amp;rdquo; intermediaries like gestures and sensory organs. For example, If you want to express that you’re angry, you might encode that emotion by making a face or cussing (I’m partial to second one, though I’ve never actually done it). This creates a chain like:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Backing Up the Primary Storage</title>
+      <link>http://localhost:1313/blog/post/backuping-up-your-primary-storage/</link>
+      <pubDate>Mon, 08 Apr 2024 01:32:36 +0500</pubDate>
+      <guid>http://localhost:1313/blog/post/backuping-up-your-primary-storage/</guid>
+      <description>&lt;p&gt;Last month, I was playing around with configuration files of my OS (ubuntu) and got myself into a login-loop, in simple words I couldn&amp;rsquo;t login into my OS anymore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Harnessing the Power of Bash Script</title>
+      <link>http://localhost:1313/blog/post/harnessing-the-power-of-bash-script/</link>
+      <pubDate>Tue, 09 Jan 2024 23:33:22 +0500</pubDate>
+      <guid>http://localhost:1313/blog/post/harnessing-the-power-of-bash-script/</guid>
+      <description>&lt;p&gt;This is a short, fun blog that demonstrates how we can use basic bash commands to make our life easier and flex on fellow developers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Deploy FastApi on Hugging Face</title>
+      <link>http://localhost:1313/blog/post/how-to-deploy-fastapi-on-hugging-face/</link>
+      <pubDate>Tue, 09 Jan 2024 12:18:27 +0500</pubDate>
+      <guid>http://localhost:1313/blog/post/how-to-deploy-fastapi-on-hugging-face/</guid>
+      <description>&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;&#xA;&lt;p&gt;Basic undertstanding of &lt;strong&gt;Git&lt;/strong&gt;.&#xA;You can follow &lt;a href=&#34;https://www.freecodecamp.org/news/introduction-to-git-and-github/&#34;&gt;this&lt;/a&gt; article to get familiar.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
