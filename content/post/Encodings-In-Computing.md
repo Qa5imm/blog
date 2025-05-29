@@ -16,7 +16,7 @@ But what if we could skip these intermiadiary steps and communicate directly wit
 
 Second need for encodings arises when an intelligent system needs to interact with a dumb system (dumb is defined relative to intelligent system), essentionaly first part of above chain. It’s similar to explaining a complex idea to someone unfamiliar with it - we simplify the complexity, encoding it into more accessible terms so they can understand the basics and build upon them later.
 
-In computing, encodings serve a similar purpose but also include aspects like security, storage efficiency, and data integrity. However, for this article, we’ll focus only on the communication between humans’ greatest invention (computers) and God’s greatest invention (humans), since you can’t outsmart God, and His creation is more intelligent than ours.
+In computing, encodings serve a similar purpose but also include aspects like security, storage efficiency, and data integrity. However, for this article, we’ll focus only on the communication between humans’ greatest invention (computers) and God’s greatest invention (humans), since you can’t outsmart God, His creation is more intelligent than ours.
 
 ## Encodings in computing
 
