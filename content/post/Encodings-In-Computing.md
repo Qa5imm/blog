@@ -59,6 +59,6 @@ Before I wrap up this article, let me share some cursed knowledge with you. Leng
 s = "👍"
 s.length
 ```
-You'll get 2 as output because JavaScript encodes strings using UTF-16. A thumbs-up emoji takes 4 bytes, but since JavaScript uses UTF-16, it interpetes 👍 as two distinct bytes. This means every English alphabet character in JavaScript will take twice as much space compared to a langauge (python) which use UTF-8 (store english alphabets in 8-bits).
+You'll get 2 as output because JavaScript encodes strings using UTF-16. A thumbs-up emoji takes 4 bytes, but since JavaScript uses UTF-16, it interpetes 👍 as two distinct sequences. This means every English alphabet character in JavaScript will take twice as much space compared to a langauge (python) which use UTF-8 (store english alphabets in 8-bits).
 
 
